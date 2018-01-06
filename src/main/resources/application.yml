@@ -1,0 +1,14 @@
+server:
+    port: 8080
+    contextPath: /welcome/api
+
+logging:
+  level:
+    .: INFO
+    org.springframework: INFO
+    org:
+      hibernate:
+        SQL: INFO
+management:
+    security:
+        enabled: false
